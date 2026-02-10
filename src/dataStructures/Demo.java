@@ -41,8 +41,9 @@ public class Demo {
 	}
 	
 	public static void main(String[] args) {
-		
-		int[] nums = {1,2,4,6,7};
+	
+	//lets not specify values, will take an array that have 1000 values in it. linear takes 1000 steps and binary takes 10 steps.
+		int[] nums = new int[1000];
 		int target = 7;
 		
 		int result1 = linearSearch(nums, target);
