@@ -29,6 +29,7 @@ public class SelectionSort {
 			nums[minIndex] = nums[i];
 			nums[i] = temp;
 			
+		//iteration how its sorting that is steps.
 			System.out.println();
 			for(int num :nums) {
 				System.out.print(num + " ");
