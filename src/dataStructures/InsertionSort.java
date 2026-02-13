@@ -16,8 +16,16 @@ public class InsertionSort {
 				j--;
 			}
 			nums[j + 1] = key;
+		
+		//to print iteration how it is sorting that is steps
+			System.out.println();
+			for(int num: nums) {
+				System.out.print(num + " ");
+			}
 		}
 		
+		System.out.println();
+		System.out.println("After sorting");
 		for(int num: nums) {
 			System.out.print(num + " ");
 		}
