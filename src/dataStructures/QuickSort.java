@@ -2,9 +2,7 @@ package dataStructures;
 
 public class QuickSort {
 	public static void quickSort(int[] nums, int low, int high)
-	{
-		
-		
+	{	
 		if(low<high)
 		{
 			int pi = partition(nums,low,high);
@@ -27,12 +25,13 @@ public class QuickSort {
 	    		
 	    	}
 	    }
+	    
 	   int temp = nums[i+1];
 	   nums[i+1] = nums[high];
 	   nums[high] = temp;
 	   
 	    return i+1;
-		
+	   
 	}
 
 	public static void main(String[] args) {
