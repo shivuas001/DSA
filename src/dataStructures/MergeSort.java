@@ -46,8 +46,7 @@ public class MergeSort {
 			}
 			k++;
 		}
-		
-		
+
 		//while comparing any one array will remain values and need not be compared
 		while(i<n1) {
 			arr[k] = lArr[i];
@@ -60,7 +59,6 @@ public class MergeSort {
 			k++;
 		}
 		
-		
 	}
 
 	public static void main(String[] args) {
@@ -72,7 +70,6 @@ public class MergeSort {
 		for(int n: arr) {
 			System.out.print(n + " ");
 		}
-
 
 	}
 
